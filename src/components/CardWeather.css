@@ -1,0 +1,56 @@
+.main-container {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    top: 1rem;
+    background: rgba(93, 93, 104, 0.24);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.8px);
+    -webkit-backdrop-filter: blur(4.8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.card-weather>section {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    row-gap: 1rem;
+    align-items: center;
+}
+
+.card-weather img {
+    width: 15rem;
+    height: auto;
+    object-fit: contain;
+}
+
+.btn-degrees {
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+}
+
+.btn-degrees:hover{
+    background-color: blue;
+    color: white;
+}
+
+.description {
+    margin: 2rem;
+    font-size: 1.5rem;
+}
+
+.weather-details li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    justify-content: left;
+    row-gap: 2rem;
+}
